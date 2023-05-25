@@ -1,0 +1,21 @@
+---
+title: ""
+---
+
+<br/>
+<br/>
+
+<div style="float: left; padding-right: 10px;">
+  <img src=assets/Adam_circle.jpg style="width: 200px">
+</div>
+
+My name is Adam Maciaszek, and I am a graduate student in Data Analytics at the University of Massachusetts Amherst. With a bachelor's degree in computer engineering, I have developed a strong foundation in technical skills and problem-solving. However, my true passion lies in the application of machine learning techniques in various domains, including academia, professional settings, and even artistic endeavors.
+
+One of the unique aspects of my journey is my involvement in the film and animation industry as a restoration artist. Leveraging the power of neural networks, I have had the opportunity to contribute to several projects, utilizing cutting-edge technology to enhance the visual quality and preserve the artistic integrity of films. This fusion of technology and creativity has been an incredible experience, and it has further fueled my enthusiasm for machine learning applications.
+
+In addition to my creative ventures, my research interests are diverse, spanning across multiple fields. From animation and virtual reality (VR) to ambisonics, dinosaurs, bees, and network theory, I am constantly seeking opportunities to explore fascinating topics and uncover new insights. As an example of my multidisciplinary approach, I have even designed a medical device on a flexible board, programmed to measure shivering as a potential sign of hypoglycemia. This device seamlessly connects with users' phones, offering immediate assistance when needed.
+
+While my research endeavors may seem diverse and varied, one common thread unites them all—my passion for delving into data sets, cleaning and analyzing them to extract meaningful information. This skill set enables me to contribute effectively to any field that relies on data-driven decision-making.
+
+
+

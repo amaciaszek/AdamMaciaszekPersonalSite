@@ -1,0 +1,37 @@
+---
+title: "Projects"
+---
+
+### Senior Capstone Project: Shiver-Ring
+
+<div style="float: left; padding-right: 10px;">
+  <img src=assets/design.png style="width: 400px">
+</div>
+
+  Shiver Ring addressed the critical issue of hypoglycemia and its potential consequences, such as hypothermia and life-threatening shivering. As a non-invasive solution, our team developed a wrist-mounted flexible PCB device to detect and respond to hypoglycemic events effectively.
+Throughout the project, we worked remotely as a team, starting from the conceptualization phase to the final product. The wrist-mounted device we created had the capability to audibly alert the wearer when a hypoglycemic event occurred, primarily by detecting shivering. Upon detecting shivering, the device would play an alarm, ensuring immediate attention. If the alarm continued for a minute without being stopped, the device would send a Bluetooth signal to our companion app, which we also developed as part of the project. This app would then send a text message to a designated family member or emergency services, such as 911.
+
+<div style="float: left; padding-right: 10px;">
+  <img src=assets/grpah1.png style="width: 450px">
+</div>
+
+  In this collaborative effort, my role focused on coding in C and implementing the sampling of positional data received through an accelerometer. I also contributed to calibrating the accelerometer for accurate data collection. Utilizing advanced signal processing techniques like Fast Fourier Transforms (FFTs) and autocorrelation, I developed algorithms to analyze the frequency of movement. The goal was to identify if the frequency fell within the shivering range of 8-12Hz, indicating a hypoglycemic event.
+
+  By leveraging my coding expertise and signal processing techniques, I played a vital role in ensuring the device's functionality and its ability to accurately detect shivering as a trigger for hypoglycemic events. The successful integration of these components into the overall system paved the way for an effective solution that enhances patient safety and offers timely alerts during critical situations.
+  
+
+[Project Website](http://www.ecs.umass.edu/sdp/sdp21/team02/)
+
+[Github Page](https://github.com/amaciaszek/Sdp-Shiver-Ring)
+
+### Visualization of Directional Sound in Ambisonic VR Using Quadraphonic Surround Sound
+
+<div style="float: left; padding-right: 10px;">
+  <img src=assets/quad.png style="width: 1000px">
+</div>
+
+In this project, I created a video that visualizes the phase and magnitude of multiple sound sources using regular multichannel surround sound files. Ambisonic audio is a technique for capturing and reproducing sound in a 360-degree spherical sound field. It encodes audio information in a multi-channel format, capturing both the direction and distance of sound sources. During playback, the encoded audio is decoded and rendered for different speaker setups or binaural playback, providing an immersive and realistic audio experience.
+As an audiophile, I developed an interest in vintage technology after repairing my own quadraphonic reel-to-reel machine, an early version of surround sound that involved sound coming from four directions. Since quadraphonic systems are rare, I wanted to replicate the exact experience using head-tracking VR. To achieve this, I created a 3D environment in my digital audio workstation (DAW) and placed four speakers at 45, 135, 225, and 315 degrees, mimicking the speaker positions in each corner of a room. I then converted this setup into first-order ambisonics, which uses a spherical harmonic representation with four channels (W, X, Y, Z).
+Using a plugin called Sparta Power Map, I plotted the sound magnitude as a color gradient, with blue indicating low volume and yellow and red representing louder levels. The direction of the sound was visualized on a 2D map, with the x-coordinate ranging from 180 degrees horizontally to -180 degrees horizontally, and the y-coordinate ranging from -90 degrees vertically to 90 degrees vertically. Finally, I projected this power map onto a 360-degree VR video along with the ambisonic audio, creating an immersive experience where the audio responds to head movements, just like in real life. You can watch the video here: 
+
+[VR Visualization of Directional Sound](https://www.youtube.com/watch?v=yxWgNnO24i0)
