@@ -6,7 +6,9 @@ title: "Research Projects"
 
 This project tackles the challenging task of distinguishing between tridactyl three-toed dinosaur tracks of herbivorous ornithischians and predominantly carnivorous theropods using a convolutional neural network. The aim is to leverage an existing online database of dinosaur track traces to accurately identify tracks belonging to ornithischians and theropods with three toes. The dataset consists of monochromatic traces obtained from the Lark Quarry trackway in Australia. The trained model achieved higher overall accuracy with the scoring metric for accuracy, outperforming human experts in both accuracy and confidence in predictions. Furthermore, the model demonstrated robustness in identifying local theropod tracks with no false negatives reported. 
 
-![](assets/DinosuarTracks.png)
+<div class="zoom">
+  ![](assets/DinosuarTracks.png)
+</div>
 
 ### Reddit as a Network
 
