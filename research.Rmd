@@ -5,7 +5,7 @@ title: "Research Projects"
 ### Reddit as a Network
 This research project focuses on exploring the level of interconnectivity between subreddits on the social media platform Reddit. Unlike other social networks, Reddit revolves around communities known as subreddits, each centered around a specific topic. The study aims to determine if Reddit is prone to forming isolated echo chambers or if the interconnectivity between subreddits fosters dialogue and interaction. The research utilizes a dataset from 2013, consisting of top posts from 2,500 subreddits. Data collection involved scraping post information, comments, authors, and karma. An edge list was created based on the number of common users leaving comments in the top posts. The study found that the graph of subreddit interconnections became denser when including all comments, both positive and negative. 
 
-<a href="Reddit.Rmd" style="font-size: xx-larger;">Explore More</a>
+<a href="reddit.Rmd" style="font-size: xx-larger;">Explore More</a>
 
 ![](assets/reddit_bump.png)
 
