@@ -2,6 +2,13 @@
 title: "Research Projects"
 ---
 
+### Reddit as a Network
+This research project focuses on exploring the level of interconnectivity between subreddits on the social media platform Reddit. Unlike other social networks, Reddit revolves around communities known as subreddits, each centered around a specific topic. The study aims to determine if Reddit is prone to forming isolated echo chambers or if the interconnectivity between subreddits fosters dialogue and interaction. The research utilizes a dataset from 2013, consisting of top posts from 2,500 subreddits. Data collection involved scraping post information, comments, authors, and karma. An edge list was created based on the number of common users leaving comments in the top posts. The study found that the graph of subreddit interconnections became denser when including all comments, both positive and negative. 
+
+<a href="Reddit.Rmd" style="font-size: xx-larger;">Explore More</a>
+
+![](assets/reddit_bump.png)
+
 ### Classifying Dinosaur Tracks Using a Convolutional Nueral Net
 
 This project tackles the challenging task of distinguishing between tridactyl three-toed dinosaur tracks of herbivorous ornithischians and predominantly carnivorous theropods using a convolutional neural network. The aim is to leverage an existing online database of dinosaur track traces to accurately identify tracks belonging to ornithischians and theropods with three toes. The dataset consists of monochromatic traces obtained from the Lark Quarry trackway in Australia. The trained model achieved higher overall accuracy with the scoring metric for accuracy, outperforming human experts in both accuracy and confidence in predictions. Furthermore, the model demonstrated robustness in identifying local theropod tracks with no false negatives reported. 
@@ -9,13 +16,6 @@ This project tackles the challenging task of distinguishing between tridactyl th
 <div class="zoom">
   ![](assets/DinosuarTracks.png)
 </div>
-
-### Reddit as a Network
-
-This research project focuses on exploring the level of interconnectivity between subreddits on the social media platform Reddit. Unlike other social networks, Reddit revolves around communities known as subreddits, each centered around a specific topic. The study aims to determine if Reddit is prone to forming isolated echo chambers or if the interconnectivity between subreddits fosters dialogue and interaction. The research utilizes a dataset from 2013, consisting of top posts from 2,500 subreddits. Data collection involved scraping post information, comments, authors, and karma. An edge list was created based on the number of common users leaving comments in the top posts. The study found that the graph of subreddit interconnections became denser when including all comments, both positive and negative. This indicated active communication across ideological divides, particularly in political subreddits. Additionally, the analysis revealed that sports-related subreddits formed a distinct cluster somewhat separated from the main component, while FIFA and European soccer subreddits showed stronger connectivity. The research sheds light on the interconnected nature of subreddits and suggests ongoing dialogue among Reddit communities.
-
-![](assets/reddit.png)
-
 ### Ancient Languages and their use of Gods
 
 This research project explores the applicability of Zipf's law to ancient languages and investigates the frequency of names and references to gods in ancient texts. The study analyzes Babylonian, ancient Indian (Ramayana), and ancient Egyptian texts dating back to different time periods. The project involves transliteration and extraction of capitalized words, supplemented by online searches for specific terms. The hypothesis suggests that ancient languages would differ from modern languages, with a higher frequency of god names and a preference for male deities. The findings support Zipf's law in Ancient Egyptian and Akkadian, while Sanskrit deviates from it. Gods are mentioned more frequently than human characters in all texts, with similarities observed in the ratio of gendered gods and the prominence of specific deities across different cultures. The study's strengths lie in the diversity of language samples and line-by-line translations, while limitations include reliance on translations and uncertainties in character labeling.
