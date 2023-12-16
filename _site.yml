@@ -13,7 +13,9 @@ navbar:
       href: research.html
     - text: "Projects"
       icon: fa-code
-      href: projects.html
+    - text: "Reddit"
+      icon: fa-code
+      href: reddit.html
     - text: "Youtube"
       icon: fa-youtube
       href: https://www.youtube.com/channel/UCLcxe8SDZbmEe3ZjcdFoG_g/videos
