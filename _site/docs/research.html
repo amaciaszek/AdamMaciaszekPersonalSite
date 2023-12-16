@@ -13,7 +13,7 @@
 
 <title>Research Projects</title>
 
-<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.25/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/paper.min.css" rel="stylesheet" />
@@ -32,8 +32,8 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.2/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.2/css/v4-shims.min.css" rel="stylesheet" />
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -181,8 +181,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -190,16 +190,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -304,6 +297,24 @@ $(document).ready(function () {
 </div>
 
 
+<div id="reddit-as-a-network" class="section level3">
+<h3>Reddit as a Network</h3>
+<p>This research project focuses on exploring the level of
+interconnectivity between subreddits on the social media platform
+Reddit. Unlike other social networks, Reddit revolves around communities
+known as subreddits, each centered around a specific topic. The study
+aims to determine if Reddit is prone to forming isolated echo chambers
+or if the interconnectivity between subreddits fosters dialogue and
+interaction. The research utilizes a dataset from 2013, consisting of
+top posts from 2,500 subreddits. Data collection involved scraping post
+information, comments, authors, and karma. An edge list was created
+based on the number of common users leaving comments in the top posts.
+The study found that the graph of subreddit interconnections became
+denser when including all comments, both positive and negative.</p>
+<p><a href="Reddit.Rmd" style="font-size: xx-larger;">Explore
+More</a></p>
+<p><img src="assets/reddit_bump.png" /></p>
+</div>
 <div id="classifying-dinosaur-tracks-using-a-convolutional-nueral-net"
 class="section level3">
 <h3>Classifying Dinosaur Tracks Using a Convolutional Nueral Net</h3>
@@ -318,30 +329,9 @@ model achieved higher overall accuracy with the scoring metric for
 accuracy, outperforming human experts in both accuracy and confidence in
 predictions. Furthermore, the model demonstrated robustness in
 identifying local theropod tracks with no false negatives reported.</p>
+<div class="zoom">
 <p><img src="assets/DinosuarTracks.png" /></p>
 </div>
-<div id="reddit-as-a-network" class="section level3">
-<h3>Reddit as a Network</h3>
-<p>This research project focuses on exploring the level of
-interconnectivity between subreddits on the social media platform
-Reddit. Unlike other social networks, Reddit revolves around communities
-known as subreddits, each centered around a specific topic. The study
-aims to determine if Reddit is prone to forming isolated echo chambers
-or if the interconnectivity between subreddits fosters dialogue and
-interaction. The research utilizes a dataset from 2013, consisting of
-top posts from 2,500 subreddits. Data collection involved scraping post
-information, comments, authors, and karma. An edge list was created
-based on the number of common users leaving comments in the top posts.
-The study found that the graph of subreddit interconnections became
-denser when including all comments, both positive and negative. This
-indicated active communication across ideological divides, particularly
-in political subreddits. Additionally, the analysis revealed that
-sports-related subreddits formed a distinct cluster somewhat separated
-from the main component, while FIFA and European soccer subreddits
-showed stronger connectivity. The research sheds light on the
-interconnected nature of subreddits and suggests ongoing dialogue among
-Reddit communities.</p>
-<p><img src="assets/reddit.png" /></p>
 </div>
 <div id="ancient-languages-and-their-use-of-gods"
 class="section level3">
